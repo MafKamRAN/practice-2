@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
+}
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px 0;
+}
+input {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  width: 80%;
+  margin: 0 0 10px;
+}
+.login {
+  border: none;
+  background-color: rgb(56, 56, 223);
+  color: white;
+  font-size: 18px;
+  padding: 7px 20px;
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.login:hover {
+  background-color: rgb(63, 63, 255);
+  transition: 0.2s ease;
+}
+.first {
+  font-size: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+  margin: 10px 0;
+}
+.second {
+  font-size: 22px;
+  text-align: center;
+  margin: 30px 0;
+}
+i {
+  color: rgb(63, 63, 255);
+}
+.forget {
+  font-size: 19px;
+  text-decoration: underline;
+  text-align: center;
+}
+.forget:hover {
+  color: rgb(56, 56, 223);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.lower_part {
+  background-color: white;
+  height: 55px;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.final {
+  margin: 20px 0;
+  text-align: center;
+  cursor: pointer;
+}
+span {
+  color: rgb(63, 63, 255);
+}
